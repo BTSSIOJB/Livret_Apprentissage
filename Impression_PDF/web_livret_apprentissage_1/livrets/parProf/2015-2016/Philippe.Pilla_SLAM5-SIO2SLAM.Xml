@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<items>
+  <item>
+    <numMatiere>17</numMatiere>
+    <date>08/02/2016</date>
+    <heure_debut>13</heure_debut>
+    <heure_fin>17</heure_fin>
+    <resume_cours>Architecture applicative avancée - Justifier le choix d'une architecture applicative -
+Étude la mise en place d'une application web de type MVC (Modèle-Vue-Contrôleur) L'étude se fait à partir d'un document original fourni aux étudiants basé sur un exemple toujours sur le thème de la gestion d'un Hôtel développé en MVC ASP.NET - C# : - Compréhension globale du MVC - Compréhension du MVC dans une infrastructure Microsoft ASP.NET - Mise en place d'un projet MVC ASP.NET dans Visual Studio 2013 - Étude de l'architecture du projet - Mise en place de la table de routage dans le fichier GLOBAL.ASAX et étude de la logique d'une route - Mise en place en place d'un contrôleur et d'une vue simples - Réutilisation du code (classes de contrôle et classes métier) de l'application GESTION HOTEL non MVC dans une bibliothèque de classes (DLL) afin de s'en servir comme modèle (M de MVC) - Distinction modèle de domaine / modèle de vue - mettre en place une page maître dans asp.net MVC - utilisation des HTML HELPERS afin de simplifier l'écriture du code HTML Ce travail sera compléter par une mise en oeuvre dans un petit exercice.</resume_cours>
+  </item>
+  <item>
+    <numMatiere>17</numMatiere>
+    <date>26/04/2016</date>
+    <heure_debut>8</heure_debut>
+    <heure_fin>12</heure_fin>
+    <resume_cours>- Étude d'une architecture applicative avancée -
+Étude d'une partie des possibilités de Entity Framework. ORM (Object Relatinal Mapping) à partir d'une petite application dans le contexte maintenant connu de Gestion Hotel. A partir des classes métier, l'ORM va générer la base de données dans SQL SERVER automatiquement. Le contexte de persistance créé par l'ORM permettra une sauvegarde des données des objets dans la base sans utilisation de requête SQL réalisé par le programmeur.
+
+Cette application me sert aussi à introduire l'étude d'un projet de TEST UNITAIRE (Slam 4) utilisant la classe ASSERT qui permet de réaliser le test d'une méthode du projet cible. Nous montrons ici à l’étudiant l'intérêt d'une telle démarche plutôt que de passer par des tests dans le code original (Éviter la pollution du code).</resume_cours>
+  </item>
+</items>

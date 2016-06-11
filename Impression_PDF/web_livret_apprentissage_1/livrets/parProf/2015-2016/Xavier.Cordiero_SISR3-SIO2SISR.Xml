@@ -1,0 +1,229 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<items>
+  <item>
+    <numMatiere>10</numMatiere>
+    <date>01/09/2015</date>
+    <heure_debut>8</heure_debut>
+    <heure_fin>12</heure_fin>
+    <resume_cours>Installation matérielle des salles
+Révisions adressage IP V4 simple</resume_cours>
+  </item>
+  <item>
+    <numMatiere>10</numMatiere>
+    <date>08/09/2015</date>
+    <heure_debut>8</heure_debut>
+    <heure_fin>12</heure_fin>
+    <resume_cours>Exo papier routage. Routage statique IP V4.
+Installations des machines virtuelles.</resume_cours>
+  </item>
+  <item>
+    <numMatiere>10</numMatiere>
+    <date>15/09/2015</date>
+    <heure_debut>8</heure_debut>
+    <heure_fin>12</heure_fin>
+    <resume_cours>Cours sur le routage Dynamique. Rappel des notions de base IP V4. 
+Implémentation sur CISCO Pacquet Tracer de l'exercice (d'abord en statique puis en dynamique)</resume_cours>
+  </item>
+  <item>
+    <numMatiere>10</numMatiere>
+    <date>21/09/2015</date>
+    <heure_debut>13</heure_debut>
+    <heure_fin>15</heure_fin>
+    <resume_cours>Mise en oeuvre du routage dynamique sur plateforme physique ROUTEUR 2901 et switch 2960.
+
+
+</resume_cours>
+  </item>
+  <item>
+    <numMatiere>10</numMatiere>
+    <date>22/09/2015</date>
+    <heure_debut>8</heure_debut>
+    <heure_fin>12</heure_fin>
+    <resume_cours>Suite mise en oeuvre du routage dynamique sur plateforme physique ROUTEUR 2901 et switch 2960.
+Sauvegarde des configurations Routeur sur serveur TFTP (SolarisTFTP).
+</resume_cours>
+  </item>
+  <item>
+    <numMatiere>10</numMatiere>
+    <date>22/09/2015</date>
+    <heure_debut>8</heure_debut>
+    <heure_fin>11</heure_fin>
+    <resume_cours>Suite mise en oeuvre du routage dynamique sur plateforme physique ROUTEUR 2901 et switch 2960.
+Sauvegarde des configurations Routeur sur serveur TFTP (SolarisTFTP).</resume_cours>
+  </item>
+  <item>
+    <numMatiere>10</numMatiere>
+    <date>12/10/2015</date>
+    <heure_debut>13</heure_debut>
+    <heure_fin>15</heure_fin>
+    <resume_cours>Mise en œuvre Du NAT chez cisco TP TOBOGGAN
+</resume_cours>
+  </item>
+  <item>
+    <numMatiere>10</numMatiere>
+    <date>13/10/2015</date>
+    <heure_debut>8</heure_debut>
+    <heure_fin>12</heure_fin>
+    <resume_cours>suite te fin de mise en œuvre du NAT avec les ACL.
+</resume_cours>
+  </item>
+  <item>
+    <numMatiere>10</numMatiere>
+    <date>02/11/2015</date>
+    <heure_debut>13</heure_debut>
+    <heure_fin>15</heure_fin>
+    <resume_cours>Mise en œuvre des VLAN chez cisco
+</resume_cours>
+  </item>
+  <item>
+    <numMatiere>10</numMatiere>
+    <date>03/11/2015</date>
+    <heure_debut>8</heure_debut>
+    <heure_fin>12</heure_fin>
+    <resume_cours>suite et fin de mise en œuvre du VLAN
+</resume_cours>
+  </item>
+  <item>
+    <numMatiere>10</numMatiere>
+    <date>09/11/2015</date>
+    <heure_debut>13</heure_debut>
+    <heure_fin>15</heure_fin>
+    <resume_cours>Le Wifi
+</resume_cours>
+  </item>
+  <item>
+    <numMatiere>10</numMatiere>
+    <date>10/11/2015</date>
+    <heure_debut>8</heure_debut>
+    <heure_fin>12</heure_fin>
+    <resume_cours>Mise en œuvre simple sur borne CISCO ap11xx client sous windows.
+WEP puis WPA2 simple.
+</resume_cours>
+  </item>
+  <item>
+    <numMatiere>10</numMatiere>
+    <date>16/11/2015</date>
+    <heure_debut>13</heure_debut>
+    <heure_fin>15</heure_fin>
+    <resume_cours>suite de mise en œuvre simple sur borne CISCO 
+</resume_cours>
+  </item>
+  <item>
+    <numMatiere>10</numMatiere>
+    <date>17/11/2015</date>
+    <heure_debut>8</heure_debut>
+    <heure_fin>12</heure_fin>
+    <resume_cours>Wifi/ Mise en œuvre complexe sur simulateur PT avec Serveur Radius</resume_cours>
+  </item>
+  <item>
+    <numMatiere>10</numMatiere>
+    <date>23/11/2015</date>
+    <heure_debut>13</heure_debut>
+    <heure_fin>15</heure_fin>
+    <resume_cours>Mise en œuvre d'un Serveur  Radius sous w2008 server R2
+</resume_cours>
+  </item>
+  <item>
+    <numMatiere>10</numMatiere>
+    <date>14/12/2015</date>
+    <heure_debut>13</heure_debut>
+    <heure_fin>15</heure_fin>
+    <resume_cours>Cours tp powsershell
+</resume_cours>
+  </item>
+  <item>
+    <numMatiere>10</numMatiere>
+    <date>15/12/2015</date>
+    <heure_debut>8</heure_debut>
+    <heure_fin>12</heure_fin>
+    <resume_cours>TP1 pws niveau 1 et 2.</resume_cours>
+  </item>
+  <item>
+    <numMatiere>10</numMatiere>
+    <date>04/01/2016</date>
+    <heure_debut>13</heure_debut>
+    <heure_fin>15</heure_fin>
+    <resume_cours>Installation de Windows 2008 R2 Server/Active Directory en mono domaine
+</resume_cours>
+  </item>
+  <item>
+    <numMatiere>10</numMatiere>
+    <date>05/01/2016</date>
+    <heure_debut>13</heure_debut>
+    <heure_fin>15</heure_fin>
+    <resume_cours>Installation d'un client 7 + Outil RSAT et d'un serveur Windows 2008 R2 en mode core.. 
+</resume_cours>
+  </item>
+  <item>
+    <numMatiere>10</numMatiere>
+    <date>08/01/2016</date>
+    <heure_debut>10</heure_debut>
+    <heure_fin>15</heure_fin>
+    <resume_cours>travail sur la ferme de serveur</resume_cours>
+  </item>
+  <item>
+    <numMatiere>10</numMatiere>
+    <date>11/01/2016</date>
+    <heure_debut>13</heure_debut>
+    <heure_fin>15</heure_fin>
+    <resume_cours>TP à rendre sur:
+Gestion des utilisateurs, groupes et droits d’accès et partages SMB.
+</resume_cours>
+  </item>
+  <item>
+    <numMatiere>10</numMatiere>
+    <date>12/01/2016</date>
+    <heure_debut>8</heure_debut>
+    <heure_fin>10</heure_fin>
+    <resume_cours>Travail sur les projets pour l'examen E4. </resume_cours>
+  </item>
+  <item>
+    <numMatiere>10</numMatiere>
+    <date>12/01/2016</date>
+    <heure_debut>8</heure_debut>
+    <heure_fin>12</heure_fin>
+    <resume_cours>FIN du TP à rendre sur:
+Gestion des utilisateurs, groupes et droits d’accès et partages SMB.</resume_cours>
+  </item>
+  <item>
+    <numMatiere>10</numMatiere>
+    <date>18/01/2016</date>
+    <heure_debut>13</heure_debut>
+    <heure_fin>15</heure_fin>
+    <resume_cours>Etude d'ipV6 avec PT. +Mode projet
+</resume_cours>
+  </item>
+  <item>
+    <numMatiere>10</numMatiere>
+    <date>19/01/2016</date>
+    <heure_debut>8</heure_debut>
+    <heure_fin>12</heure_fin>
+    <resume_cours>Mode projet pour chaque apprenant.
+</resume_cours>
+  </item>
+  <item>
+    <numMatiere>10</numMatiere>
+    <date>25/01/2016</date>
+    <heure_debut>13</heure_debut>
+    <heure_fin>15</heure_fin>
+    <resume_cours>Mode projet
+</resume_cours>
+  </item>
+  <item>
+    <numMatiere>10</numMatiere>
+    <date>26/01/2016</date>
+    <heure_debut>8</heure_debut>
+    <heure_fin>12</heure_fin>
+    <resume_cours>VO IP. Etude d'une mise en oeuvre simple avec un Serveur Asterisk sous trixbox et des téléphones cisco 2940 70.
+</resume_cours>
+  </item>
+  <item>
+    <numMatiere>10</numMatiere>
+    <date>01/02/2016</date>
+    <heure_debut>13</heure_debut>
+    <heure_fin>15</heure_fin>
+    <resume_cours>VO IP. Etude d'une mise en oeuvre simple avec un Serveur Asterisk sous trixbox et des téléphones cisco 2940 70.
+suite..
+Mode Projet.</resume_cours>
+  </item>
+</items>

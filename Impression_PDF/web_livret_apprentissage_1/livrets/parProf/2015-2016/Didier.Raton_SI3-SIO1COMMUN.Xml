@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<items>
+  <item>
+    <numMatiere>3</numMatiere>
+    <date>17/09/2015</date>
+    <heure_debut>10</heure_debut>
+    <heure_fin>12</heure_fin>
+    <resume_cours>Programmation C</resume_cours>
+  </item>
+  <item>
+    <numMatiere>3</numMatiere>
+    <date>19/11/2015</date>
+    <heure_debut>10</heure_debut>
+    <heure_fin>12</heure_fin>
+    <resume_cours>SQL SELECT</resume_cours>
+  </item>
+  <item>
+    <numMatiere>3</numMatiere>
+    <date>26/11/2015</date>
+    <heure_debut>10</heure_debut>
+    <heure_fin>12</heure_fin>
+    <resume_cours>Base de données et Tables
+SQL SELECT
+</resume_cours>
+  </item>
+  <item>
+    <numMatiere>3</numMatiere>
+    <date>14/01/2016</date>
+    <heure_debut>10</heure_debut>
+    <heure_fin>12</heure_fin>
+    <resume_cours>Modèlisation</resume_cours>
+  </item>
+</items>

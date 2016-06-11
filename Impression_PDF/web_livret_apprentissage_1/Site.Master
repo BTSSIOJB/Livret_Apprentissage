@@ -1,0 +1,130 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="web_livret_apprentissage_1.SiteMaster" %>
+
+<!DOCTYPE html>
+
+<html lang="fr">
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title><%: Page.Title %> - LIVRET APPRENTISSAGE BTS SIO ALTERNANT</title>
+
+    <asp:PlaceHolder runat="server">
+        <%: Scripts.Render("~/bundles/modernizr") %> <%-- le lien est dans BundleConfig.cs dans App_Start (note philippe) --%>
+    </asp:PlaceHolder>
+   
+    <webopt:bundlereference runat="server" path="~/Content/css" />
+    <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+
+
+   
+    <!--<link href="/Scripts/jquery_1.11/jquery-ui.min.css" rel="stylesheet"> --> <!--Contient les css pour tous les widgets => mis avec les autres CSS-->
+</head>
+<body>
+    
+    <form runat="server" id="monForm">
+        <asp:ScriptManager runat="server">
+            <Scripts>
+                <%--Pour plus d'informations sur les scripts de regroupement dans ScriptManager, consultez http://go.microsoft.com/fwlink/?LinkID=301884 --%>
+                <%--Scripts Framework--%>
+                <asp:ScriptReference Name="MsAjaxBundle" />
+                <asp:ScriptReference Name="jquery" />            
+                <asp:ScriptReference Name="jquery-ui" /> 
+                <asp:ScriptReference Name="bootstrap" />
+                <asp:ScriptReference Name="respond" /> <%-- le lien est dans BundleConfig.cs dans App_Start (note philippe) --%>
+                <asp:ScriptReference Name="WebForms.js" Assembly="System.Web" Path="~/Scripts/WebForms/WebForms.js" />
+                <asp:ScriptReference Name="WebUIValidation.js" Assembly="System.Web" Path="~/Scripts/WebForms/WebUIValidation.js" />
+                <asp:ScriptReference Name="MenuStandards.js" Assembly="System.Web" Path="~/Scripts/WebForms/MenuStandards.js" />
+                <asp:ScriptReference Name="GridView.js" Assembly="System.Web" Path="~/Scripts/WebForms/GridView.js" />
+                <asp:ScriptReference Name="DetailsView.js" Assembly="System.Web" Path="~/Scripts/WebForms/DetailsView.js" />
+                <asp:ScriptReference Name="TreeView.js" Assembly="System.Web" Path="~/Scripts/WebForms/TreeView.js" />
+                <asp:ScriptReference Name="WebParts.js" Assembly="System.Web" Path="~/Scripts/WebForms/WebParts.js" />
+                <asp:ScriptReference Name="Focus.js" Assembly="System.Web" Path="~/Scripts/WebForms/Focus.js" />
+                <%--<asp:ScriptReference Name="WebFormsBundle" />--%>
+                <%--Scripts de site--%>
+            </Scripts>
+        </asp:ScriptManager>
+
+        <div class="navbar navbar-inverse navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header"> <!--Ces class sont dans bootstrap.css ou bootstrap.min.css -->
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" runat="server" href="~/">LIVRET APPRENTISSAGE</a>
+                </div>
+                <div class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav">
+                                              
+                        <li class="dropdown"><a runat="server" href="#" class="dropdown-toggle" data-toggle="dropdown">Professeur<b class="caret"></b></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="SaisieCahierTextProfesseur.aspx">Saisie du cahier de texte journalier</a></li>
+                                <li><a href="vueCahierTextParProf.aspx">Aperçu de votre cahier de texte</a></li>
+                                <li><a href="vueTravailEntrepriseParProf.aspx">Aperçu du travail réalisé en entreprise par un apprenti</a></li>                             
+                           </ul>
+                        </li>
+                        <li class="dropdown"><a runat="server" href="#" class="dropdown-toggle" data-toggle="dropdown">Tuteur<b class="caret"></b></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="SaisieTravailTuteur.aspx">Saisie du travail réalisé avec un apprenti pour une période</a></li>                                 
+                                <li><a href="vueTravailEntreprisePartuteur.aspx">Aperçu du travail fait avec votre apprenti</a></li>  
+                                <li><a href="vueCahierTextParTuteur.aspx">Aperçu du cahier de texte "Lycée" de votre apprenti</a></li>                         
+                           </ul>
+                        </li>
+                        <li class="dropdown"><a runat="server" href="#" class="dropdown-toggle" data-toggle="dropdown">Apprenti<b class="caret"></b></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="vueCahierTexteParApprenti.aspx">Le cahier de texte de ma classe</a></li>                             
+                           </ul>
+                        </li>
+                        <li class="dropdown"><a runat="server" href="#" class="dropdown-toggle" data-toggle="dropdown">Administration<b class="caret"></b></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="GenerationDesPDF.aspx">Génération des PDF Livrets-Travail Entreprise-Cahier de texte Professeur</a></li>
+                                <li><a href="Inscription.aspx">Inscription des Professeurs-Tuteurs-Etudiants</a></li>                             
+                           </ul>
+                        </li>
+                        <li><a runat="server" href="~/">Accueil</a></li>
+                        <li><a runat="server" href="~/deconnexion.aspx"><%if(Session["connected"] != null)
+                                                                            { Response.Write("Deconnexion"); }
+                                                                            else { Response.Write("Connexion"); }
+                                                                            %></a></li>
+                        <li><a aria-label="connected" class="connected"><%if (Session["connected"] == "Professeur")
+                                                        { Response.Write("Connecté en tant que Professeur !"); }
+                                                        else {
+                                                            if (Session["connected"] == "Tuteur")
+                                                            {
+                                                                Response.Write("connecté en tant que Tuteur !");
+                                                            }
+                                                            else
+                                                            {
+                                                                if (Session["connected"] == "Admin")
+                                                                {
+                                                                    Response.Write("Connecté en tant qu'Administrateur !");
+                                                                }
+                                                                else {
+                                                                        if (Session["connected"] == "Apprenti")
+                                                                            { Response.Write("Connecté en tant qu'apprenti !"); }
+                                                                        else { Response.Write("Vous n'étes pas connecté !"); }
+                                                                     }
+                                                            }
+                                                            
+                                                            
+                                                                          } %></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="container body-content">
+            
+            <asp:ContentPlaceHolder ID="MainContent" runat="server">
+            </asp:ContentPlaceHolder>
+            <hr />
+            <footer>
+                
+                <p>&copy; <%: DateTime.Now.Year %> - Application Livret d'apprentissage BTS SIO ALTERNANCE Version 1.8 <asp:Image ID="Image1" runat="server" Height="30px" ImageUrl="~/images/logoJB.png" /></p>
+            </footer>
+        </div>
+
+    </form>
+</body>
+</html>

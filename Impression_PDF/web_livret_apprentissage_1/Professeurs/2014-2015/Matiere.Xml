@@ -1,0 +1,168 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<matieres>
+  <matiere>
+    <num_mat>1</num_mat>
+    <designation_mat>sio1-si1</designation_mat>
+    <num_prof>1</num_prof>
+    <intitule_mat>Support système des accès utilisateurs</intitule_mat>
+  </matiere>
+  <matiere>
+    <num_mat>2</num_mat>
+    <designation_mat>sio1-si2</designation_mat>
+    <num_prof>1</num_prof>
+    <intitule_mat>Support réseau des accès utilisateurs</intitule_mat>
+  </matiere>
+  <matiere>
+    <num_mat>3</num_mat>
+    <designation_mat>sio1-si3</designation_mat>
+    <num_prof>2</num_prof>
+    <intitule_mat>Exploitation des données</intitule_mat>
+  </matiere>
+  <matiere>
+    <num_mat>4</num_mat>
+    <designation_mat>sio1-si4</designation_mat>
+    <num_prof>2</num_prof>
+    <intitule_mat>Bases de la programmation</intitule_mat>
+  </matiere>
+  <matiere>
+    <num_mat>5</num_mat>
+    <designation_mat>sio1-si5</designation_mat>
+    <num_prof>3</num_prof>
+    <intitule_mat>Support des services et des serveurs</intitule_mat>
+  </matiere>
+  <matiere>
+    <num_mat>6</num_mat>
+    <designation_mat>sio1-si6</designation_mat>
+    <num_prof>3</num_prof>
+    <intitule_mat>Développement d'applications</intitule_mat>
+  </matiere>
+  <matiere>
+    <num_mat>7</num_mat>
+    <designation_mat>sio2-si7</designation_mat>
+    <num_prof>4</num_prof>
+    <intitule_mat>Intégration et adaptation d'un service</intitule_mat>
+  </matiere>
+  <matiere>
+    <num_mat>8</num_mat>
+    <designation_mat>sio1-sisr1</designation_mat>
+    <num_prof>
+    </num_prof>
+    <intitule_mat>Maintenance des accès utilisateurs</intitule_mat>
+  </matiere>
+  <matiere>
+    <num_mat>9</num_mat>
+    <designation_mat>sio1-sisr2</designation_mat>
+    <num_prof>
+    </num_prof>
+    <intitule_mat>Conception des infrastructures réseaux</intitule_mat>
+  </matiere>
+  <matiere>
+    <num_mat>10</num_mat>
+    <designation_mat>sio2-sisr3</designation_mat>
+    <num_prof>
+    </num_prof>
+    <intitule_mat>Exploitation des services</intitule_mat>
+  </matiere>
+  <matiere>
+    <num_mat>11</num_mat>
+    <designation_mat>sio2-sisr4</designation_mat>
+    <num_prof>
+    </num_prof>
+    <intitule_mat>Administration des systèmes</intitule_mat>
+  </matiere>
+  <matiere>
+    <num_mat>12</num_mat>
+    <designation_mat>sio2-sisr5</designation_mat>
+    <num_prof>
+    </num_prof>
+    <intitule_mat>Supervision des réseaux</intitule_mat>
+  </matiere>
+  <matiere>
+    <num_mat>13</num_mat>
+    <designation_mat>sio1-slam1</designation_mat>
+    <num_prof>
+    </num_prof>
+    <intitule_mat>Exploitation d'un schéma de données</intitule_mat>
+  </matiere>
+  <matiere>
+    <num_mat>14</num_mat>
+    <designation_mat>sio1-slam2</designation_mat>
+    <num_prof>1</num_prof>
+    <intitule_mat>Programmation objet</intitule_mat>
+  </matiere>
+  <matiere>
+    <num_mat>15</num_mat>
+    <designation_mat>sio2-slam3</designation_mat>
+    <num_prof>1</num_prof>
+    <intitule_mat>Conception et adaptation d'une base de données</intitule_mat>
+  </matiere>
+  <matiere>
+    <num_mat>16</num_mat>
+    <designation_mat>sio2-slam4</designation_mat>
+    <num_prof>
+    </num_prof>
+    <intitule_mat>Réalisation et maintenance de composants logiciels</intitule_mat>
+  </matiere>
+  <matiere>
+    <num_mat>17</num_mat>
+    <designation_mat>sio2-slam5</designation_mat>
+    <num_prof>
+    </num_prof>
+    <intitule_mat>Conception et adaptation de solutions applicatives</intitule_mat>
+  </matiere>
+  <matiere>
+    <num_mat>18</num_mat>
+    <designation_mat>sio1-anglais</designation_mat>
+    <num_prof></num_prof>
+    <intitule_mat>Anglais première année</intitule_mat>
+  </matiere>
+  <matiere>
+    <num_mat>19</num_mat>
+    <designation_mat>sio2-anglais</designation_mat>
+    <num_prof>
+    </num_prof>
+    <intitule_mat>Anglais deuxième année</intitule_mat>
+  </matiere>
+  <matiere>
+    <num_mat>20</num_mat>
+    <designation_mat>sio1-edm</designation_mat>
+    <num_prof>
+    </num_prof>
+    <intitule_mat>Economie Droit Management première année</intitule_mat>
+  </matiere>
+  <matiere>
+    <num_mat>21</num_mat>
+    <designation_mat>sio2-edm</designation_mat>
+    <num_prof>
+    </num_prof>
+    <intitule_mat>Economie Droit Management deuxième année</intitule_mat>
+  </matiere>
+  <matiere>
+    <num_mat>22</num_mat>
+    <designation_mat>sio1-français</designation_mat>
+    <num_prof>
+    </num_prof>
+    <intitule_mat>Culture générale et expression première année</intitule_mat>
+  </matiere>
+  <matiere>
+    <num_mat>23</num_mat>
+    <designation_mat>sio2-français</designation_mat>
+    <num_prof>
+    </num_prof>
+    <intitule_mat>Culture générale et expression deuxième année</intitule_mat>
+  </matiere>
+  <matiere>
+    <num_mat>24</num_mat>
+    <designation_mat>sio1-mathématiques</designation_mat>
+    <num_prof>
+    </num_prof>
+    <intitule_mat>Mathématiques première année</intitule_mat>
+  </matiere>
+  <matiere>
+    <num_mat>25</num_mat>
+    <designation_mat>sio2-mathématiques</designation_mat>
+    <num_prof>
+    </num_prof>
+    <intitule_mat>Mathématiques deuxième année</intitule_mat>
+  </matiere>
+</matieres>

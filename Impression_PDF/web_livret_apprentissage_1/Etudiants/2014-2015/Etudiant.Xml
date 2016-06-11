@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<etudiants>
+  <etudiant>
+    <num_etudiant>1</num_etudiant>
+    <nom_etudiant>nom1</nom_etudiant>
+    <prenom_etudiant>prenom1</prenom_etudiant>
+    <num_tuteur>1</num_tuteur>
+    <annee_etudiant>sio1-sisr</annee_etudiant>
+  </etudiant>
+  <etudiant>
+    <num_etudiant>2</num_etudiant>
+    <nom_etudiant>nom2</nom_etudiant>
+    <prenom_etudiant>prenom2</prenom_etudiant>
+    <num_tuteur>3</num_tuteur>
+    <annee_etudiant>sio1-sisr</annee_etudiant>
+  </etudiant>
+  <etudiant>
+    <num_etudiant>3</num_etudiant>
+    <nom_etudiant>nom3</nom_etudiant>
+    <prenom_etudiant>prenom3</prenom_etudiant>
+    <num_tuteur>3</num_tuteur>
+    <annee_etudiant>sio1-sisr</annee_etudiant>
+  </etudiant>
+  <etudiant>
+    <num_etudiant>4</num_etudiant>
+    <nom_etudiant>Nom4</nom_etudiant>
+    <prenom_etudiant>Prenom4</prenom_etudiant>
+    <num_tuteur>3</num_tuteur>
+    <annee_etudiant>sio2-slam</annee_etudiant>
+  </etudiant>
+  <etudiant>
+    <num_etudiant>5</num_etudiant>
+    <nom_etudiant>Nom5</nom_etudiant>
+    <prenom_etudiant>Prenom5</prenom_etudiant>
+    <num_tuteur>2</num_tuteur>
+    <annee_etudiant>sio1-slam</annee_etudiant>
+  </etudiant>
+</etudiants>

@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<items>
+  <item>
+    <numMatiere>7</numMatiere>
+    <date>07/03/2016</date>
+    <heure_debut>13</heure_debut>
+    <heure_fin>17</heure_fin>
+    <resume_cours>Installation et utilisation des logiciel OCS et GLPI logiciel libre respectivement de gestion de parc informatique pour OCS  (inventaire et gestion des configurations des stations de travail et serveurs) et de gestion des incidents pour GLPI.
+
+Le travail se fait en collaboration avec l'autre groupe d’étudiants (OPTION SISR) :
+- Installation des logiciels OCS et GLPI et du SGBDR MYSQL
+- Réalisation d'un sketch dans lequel l'étudiant option SLAM joue le rôle de l’utilisateur d'un poste informatique sur lequel un incident se produit. L'étudiant SLAM ouvre un ticket d'incident sur le poste et l'étudiant SISR va régler le problème et opérer la clôture du ticket.  </resume_cours>
+  </item>
+  <item>
+    <numMatiere>7</numMatiere>
+    <date>08/03/2016</date>
+    <heure_debut>8</heure_debut>
+    <heure_fin>12</heure_fin>
+    <resume_cours>Suite OCS-GLPI</resume_cours>
+  </item>
+  <item>
+    <numMatiere>7</numMatiere>
+    <date>14/03/2016</date>
+    <heure_debut>13</heure_debut>
+    <heure_fin>17</heure_fin>
+    <resume_cours>Fini OCS-GLPI</resume_cours>
+  </item>
+</items>

@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<items>
+  <item>
+    <numEtudiant>9</numEtudiant>
+    <dateDebut>23/11/2015</dateDebut>
+    <dateFin>24/12/2015</dateFin>
+    <travail_realise>test 23/11</travail_realise>
+  </item>
+  <item>
+    <numEtudiant>9</numEtudiant>
+    <dateDebut>01/12/2015</dateDebut>
+    <dateFin>31/12/2015</dateFin>
+    <travail_realise>test</travail_realise>
+  </item>
+  <item>
+    <numEtudiant>9</numEtudiant>
+    <dateDebut>01/12/2015</dateDebut>
+    <dateFin>07/12/2015</dateFin>
+    <travail_realise>test  1/12</travail_realise>
+  </item>
+</items>

@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<items>
+  <item>
+    <numMatiere>2</numMatiere>
+    <date>25/09/2015</date>
+    <heure_debut>8</heure_debut>
+    <heure_fin>10</heure_fin>
+    <resume_cours>cours sur l'adressage IP, la configuration IP d'un poste.</resume_cours>
+  </item>
+  <item>
+    <numMatiere>2</numMatiere>
+    <date>02/10/2015</date>
+    <heure_debut>8</heure_debut>
+    <heure_fin>10</heure_fin>
+    <resume_cours>exercice sur l'adressage IP et cours ITE CISCO chapitre2 </resume_cours>
+  </item>
+  <item>
+    <numMatiere>2</numMatiere>
+    <date>13/11/2015</date>
+    <heure_debut>8</heure_debut>
+    <heure_fin>10</heure_fin>
+    <resume_cours>mise en place de la plateforme d'examen sur la ferme de serveur</resume_cours>
+  </item>
+  <item>
+    <numMatiere>2</numMatiere>
+    <date>20/11/2015</date>
+    <heure_debut>8</heure_debut>
+    <heure_fin>10</heure_fin>
+    <resume_cours>avancement sur le projet de PPE</resume_cours>
+  </item>
+  <item>
+    <numMatiere>2</numMatiere>
+    <date>27/11/2015</date>
+    <heure_debut>8</heure_debut>
+    <heure_fin>10</heure_fin>
+    <resume_cours>VPN concepts de cryptage et de communication</resume_cours>
+  </item>
+  <item>
+    <numMatiere>2</numMatiere>
+    <date>04/12/2015</date>
+    <heure_debut>8</heure_debut>
+    <heure_fin>10</heure_fin>
+    <resume_cours>tp sniffer avec serveur mail et ssl</resume_cours>
+  </item>
+</items>

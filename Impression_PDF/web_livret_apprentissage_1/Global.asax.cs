@@ -21,7 +21,8 @@ namespace web_livret_apprentissage_1
             RouteConfig.RegisterRoutes(RouteTable.Routes);
             BundleConfig.RegisterBundles(BundleTable.Bundles);
 
-            DateTime odate = System.DateTime.Now;
+            // Gestion des dates 
+			DateTime odate = System.DateTime.Now;
             int mois = odate.Month;
             string anneePrecedente = (odate.Year - 1).ToString() + "-" + odate.Year.ToString();
             string anneeSuivante = odate.Year.ToString() + "-" + (odate.Year + 1);

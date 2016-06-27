@@ -20,7 +20,8 @@ namespace web_livret_apprentissage_1
             // Code qui s’exécute au démarrage de l’application
             RouteConfig.RegisterRoutes(RouteTable.Routes);
             BundleConfig.RegisterBundles(BundleTable.Bundles);
-
+			
+			// gestion des dates dans l'application
             DateTime odate = System.DateTime.Now;
             int mois = odate.Month;
             string anneePrecedente = (odate.Year - 1).ToString() + "-" + odate.Year.ToString();

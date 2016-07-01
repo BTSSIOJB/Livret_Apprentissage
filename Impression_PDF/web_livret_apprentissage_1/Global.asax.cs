@@ -21,7 +21,7 @@ namespace web_livret_apprentissage_1
             RouteConfig.RegisterRoutes(RouteTable.Routes);
             BundleConfig.RegisterBundles(BundleTable.Bundles);
 			
-			// gestion des dates dans l'application
+	    // gestion des dates dans l'application pour passer automatiquement d'une année scolaire à l'autre
             DateTime odate = System.DateTime.Now;
             int mois = odate.Month;
             string anneePrecedente = (odate.Year - 1).ToString() + "-" + odate.Year.ToString();
